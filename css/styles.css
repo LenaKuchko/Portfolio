@@ -44,13 +44,10 @@ blockquote {
 .main {
   border: 1px solid gray;
 }
-.header .active a {
+/*.header .active a {
   background-color: #337ab7;
 
-}
-.col-md-8 {
-  /*background-color: orange;*/
-}
+}*/
 .bar {
   background-color: rgb(153, 204, 255);
   margin: 0px;
@@ -76,12 +73,6 @@ blockquote {
   font-size: 20px;
 
 }
-/*.navbar-right li a {
-  color: rgb(0, 0, 0);
-  font-size: 20px;
-
-}*/
-
 .navbar-nav li:hover {
   background-color: rgb(66, 140, 215);
 }
@@ -117,7 +108,18 @@ blockquote {
   margin: 20px;
 }
 .edu {
-  font-size: 20px;
-  border: 1px solid black;
-
+  font-size: 15px;
+  /*border: 1px solid black;*/
+}
+.hobbies img
+{
+  height: 200px;
+}
+.hobbies {
+  font-size: 15px;
+  background-color: rgb(66, 140, 215);
+  color: white;
+}
+.hobbies h1 {
+  text-align: right;
 }
