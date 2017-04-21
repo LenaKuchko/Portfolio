@@ -20,33 +20,18 @@
 }
 blockquote {
   margin-top: 15px;
-  border-left: 2px solid lightgrey;
+  /*border-left: 2px solid black;*/
 }
-/*}
-.blue blockquote {
-  margin-top: 15px;
-  border-left: 5px solid blue;
-}*/
+/*.blue blockquote {
+  border-left: 2px solid black;
 
-/*.header li {
-  display: inline;
-  padding-left:10px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  padding-right: 10px;
-  float: right;
-  cursor: pointer;
-}
-.header li:hover {
-  background-color: rgb(66, 140, 215);
-  color:white;
-}*/
-.main {
-  border: 1px solid gray;
-}
-/*.header .active a {
-  background-color: #337ab7;
 
+}
+.green blockquote {
+  border-left: 2px solid ;
+}
+.yellow blockquote {
+  border-left: 2px solid ;
 }*/
 .bar {
   background-color: rgb(153, 204, 255);
@@ -71,7 +56,6 @@ blockquote {
 .navbar-inverse .navbar-nav li a  {
   color: rgb(0, 0, 0);
   font-size: 20px;
-
 }
 .navbar-nav li:hover {
   background-color: rgb(66, 140, 215);
@@ -94,14 +78,14 @@ blockquote {
 .band {
   background-color: #f5faff;
 }
-.band:hover {
-  box-shadow: 5px 0px 40px rgba(0,0,0, .2);
-}
 .wikipedia {
   background-color: #f5fffa;
 }
-.wikipedia:hover {
+.band:hover, .wikipedia:hover, .resort:hover {
   box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+.band a, .wikipedia a, .resort a {
+  font-size: 15px;
 }
 .edu img, .contacts img {
   height: 150px;
