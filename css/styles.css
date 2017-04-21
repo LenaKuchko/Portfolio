@@ -1,7 +1,9 @@
-.header {
-  border: 1px solid gray;
-  background-color: rgb(153, 204, 255);
-  margin: 0px;
+.body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.jumbotron {
+  background-color: #e6f2ff;
+  margin-bottom: 10px;
   border-radius: 0;
 }
 .header ul {
@@ -34,6 +36,56 @@
 .col-md-8 {
   /*background-color: orange;*/
 }
+.bar {
+  background-color: rgb(153, 204, 255);
+  margin: 0px;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 15px;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: rgb(66, 140, 215);
+}
+.navbar-inverse .navbar-toggle:hover {
+  background-color: rgb(66, 140, 215);
+  border-color:  rgb(255, 255, 255);
+}
+.navbar-inverse .navbar-brand {
+  color: rgb(0, 0, 0);
+}
+.navbar-inverse .navbar-brand:hover {
+  background-color: rgb(66, 140, 215);
+}
+.navbar-inverse .navbar-nav li a  {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+
+}
+/*.navbar-right li a {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+
+}*/
+
+.navbar-nav li:hover {
+  background-color: rgb(66, 140, 215);
+}
+#main_img {
+  height: 100%;
+  margin: auto;
+  float: none;
+  box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+img {
+  height: 150px;
+  float: left;
+  margin: 10px;
+  box-shadow: 2px 2px 2px;
+}
+.resort img {
+  float:right;
+}
+
 /*.navbar-invesre .navbar-nav .activ a{
   background-color: #337ab7;
 
