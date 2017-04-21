@@ -1,0 +1,40 @@
+.header {
+  border: 1px solid gray;
+  background-color: rgb(153, 204, 255);
+  margin: 0px;
+  border-radius: 0;
+}
+.header ul {
+  list-style-type: none;
+  /*padding: 10px;*/
+}
+.header ul:hover{
+  /*background-color: rgb(66, 140, 215);*/
+}
+.header li {
+  display: inline;
+  padding-left:10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  float: right;
+  cursor: pointer;
+}
+.header li:hover {
+  background-color: rgb(66, 140, 215);
+  color:white;
+}
+.main {
+  border: 1px solid gray;
+}
+.header .active a {
+  background-color: #337ab7;
+
+}
+.col-md-8 {
+  background-color: orange;
+}
+.navbar-invesre .navbar-nav .activ a{
+  background-color: #337ab7;
+
+}*/
