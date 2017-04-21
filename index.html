@@ -5,38 +5,10 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
-
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
     <meta charset="utf-8">
     <title>Olena's Portfolio</title>
   </head>
   <body>
-      <!-- <div class="row header">
-        <div class="col-md-3">
-          Olena's Portfolio
-        </div>
-        <div class="col-md-4">
-        </div>
-        <div class="col-md-5">
-          <ul>
-            <li>
-              <div class="dropdown">
-              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Projects
-              <span class="caret"></span></button>
-              <ul class="dropdown-menu">
-                <li><a href="#wiki">Wikipedia</a></li>
-                <li><a href="#band">My favorite band</a></li>
-                <li><a href="#resort">Resort</a></li>
-              </ul>
-              </div>
-            </li>
-            <li>About me</li>
-            <li>Contacts</li>
-          </ul>
-        </div>
-      </div> -->
   <nav class="navbar bar navbar-inverse ">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -45,17 +17,14 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Home</a>
+        <a class="navbar-brand" href="index.html">Home</a>
       </div>
       <div class="collapse navbar-collapse" id="Navbar">
         <ul class="nav navbar-nav">
-          <li><a href="#">About me</a></li>
+          <li><a href="about_me.html">About me</a></li>
           <li><a href="#wiki">My Projects</a></li>
           <li><a href="#">Contacts</a></li>
         </ul>
-        <!-- <ul class="nav navbar-nav navbar-right"> -->
-          <!-- <li><a href="#"><span class="glyphicon glyphicon-log-in"> Login</span></a></li> -->
-        <!-- </ul> -->
       </div>
     </div>
   </nav>
@@ -67,7 +36,7 @@
         <div class="col-md-8">
           <p>"Hi! My name is <em>Olena Kuchko</em>". Here is my portfolio page. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam </p>
 
-          <ul>
+          <ul> Here is the list of my projects:
             <li><a href="#wiki">Wikipedia project</a></li>
             <li><a href="#band">My favouriye band project</a></li>
             <li><a href="#resort">Resort</a></li>
@@ -75,12 +44,11 @@
         </div>
       </div>
 
-      <div id="wiki" class="row wikipedia">
-        <div class="col-md-8">
-          <div class="panel panel-success">
+      <div id="wiki" class="row wikipedia panel panel-success">
             <div class="panel-heading main">
               <h1 class="panel-title">Wikipedia Project</h1>
             </div>
+            <div class="col-md-8">
             <div class="panel-body">
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
               <img src="img\wiki.PNG" alt="wikipedia image">
@@ -90,19 +58,38 @@
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             </div>
           </div>
-        </div>
         <div class="col-md-4">
+          <blockquote class="green">
+            Here is list of languages:
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </blockquote>
+          <blockquote class="green">
+            Link where you can take a look on the site.
+            <a href="#">https:</a>
+          </blockquote>
         </div>
       </div>
 
-      <div id="band" class="row band">
-        <div class="col-md-4">
-        </div>
-        <div class="col-md-8">
-          <div class="panel panel-info">
-            <div class="panel-heading main">
-              <h1 class="panel-title">My favorite band Project</h1>
-            </div>
+      <div id="band" class="row band panel panel-info">
+        <div class="panel-heading main">
+          <h1 class="panel-title">My favorite band Project</h1>
+          <div class="col-md-4">
+            <blockquote class="blue">
+              Here is list of languages:
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+            </blockquote>
+            <blockquote class="blue">
+              Link where you can take a look on the site.
+              <a href="#">https:</a>
+            </blockquote>
+          </div>
+          <div class="col-md-8">
             <div class="panel-body">
               <img src="img\band.PNG" alt="band img">
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -112,16 +99,14 @@
 
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             </div>
-          </div>
+            </div>
         </div>
       </div>
 
-      <div id="resort" class="row resort">
+      <div id="resort" class="row resort panel panel-warning">
+        <div class="panel-heading main">
+          <h1 class="panel-title">Resort Project</h1>
         <div class="col-md-8">
-          <div class="panel panel-warning">
-            <div class="panel-heading main">
-              <h1 class="panel-title">Resort Project</h1>
-            </div>
             <div class="panel-body">
               <img src="img\resort.PNG" alt="resort img">
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -130,6 +115,17 @@
           </div>
         </div>
         <div class="col-md-4">
+          <blockquote class="blue">
+            Here is list of languages:
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </blockquote>
+          <blockquote class="blue">
+            Link where you can take a look on the site.
+            <a href="#">https:</a>
+          </blockquote>
         </div>
       </div>
 
