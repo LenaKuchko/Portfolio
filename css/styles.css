@@ -22,6 +22,7 @@ blockquote {
   margin-top: 15px;
   /*border-left: 2px solid black;*/
 }
+<<<<<<< HEAD
 /*.blue blockquote {
   border-left: 2px solid black;
 
@@ -33,6 +34,9 @@ blockquote {
 .yellow blockquote {
   border-left: 2px solid ;
 }*/
+=======
+
+>>>>>>> master
 .bar {
   background-color: rgb(153, 204, 255);
   margin: 0px;
@@ -74,6 +78,9 @@ blockquote {
 }
 .resort img {
   float:right;
+}
+.band a, .wikipedia a, .resort a {
+  font-size: 15px;
 }
 .band {
   background-color: #f5faff;
